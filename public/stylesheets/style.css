@@ -1,0 +1,203 @@
+
+body {
+    background-image: url("teleco3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-style: italic;
+    color: white;
+  }
+
+  #secciondatos {
+    width: 50%;
+    margin: 0 auto;
+    background-image: url("Habilidades_fondo.jpg");
+    background-size: cover;
+    }
+    
+
+h2 {
+    font-family: Open Sans, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+span{
+    text-align: center;
+}
+
+#seccionredes{
+    width: 30%;
+    margin: auto;
+    text-align: center; 
+    background-image: url("Habilidades_fondo.jpg");
+   
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#seccionredes h2{
+    padding-bottom: 5px;
+}
+#seccionredes span img {
+    box-shadow:0 12px 12px rgb(0 0 0 /50%);
+}
+a{
+    font-weight: 600;
+}
+
+.seccion{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#seccionhabilidades{
+    background-image: url("Habilidades_fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#seccionhabilidades table td {
+        text-align: center;
+    
+}
+
+#seccionhabilidades table {
+    margin: 0 auto;
+}
+
+.seccion{
+    background-color:white;
+    padding: 2%;
+    margin-top: 2% !important;
+    margin-bottom: 2%;
+    box-shadow: 0 6px 6px white;
+}
+
+section h2 
+{
+    color: #0BCC7B;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+list-style-type: none;
+
+}
+
+nav ul li a{
+    color: white;
+}
+
+#seccciondatos p{
+    font-size: 1.4rem;
+    margin-top: 6%;
+    color: #373B41;   
+}
+
+#secciondatos {
+    display: grid;
+    grid-template-areas: "datos1 datos1 datos4 datos4" 
+                         "datos2 datos2 datos4 datos4"
+                         "datos5 datos5 datos4 datos4";
+}
+
+#secciondatos h2{
+    grid-area: datos1;
+}
+#nombre{
+    grid-area: datos2;
+}
+#apellidos{
+    grid-area: datos2;
+}
+#secciondatos p{
+    grid-area: datos5;
+    text-align: justify;
+    margin: 10px;
+}
+#secciondatos img{
+        grid-area: datos4;
+        width:90%;
+        height:80%;
+        margin-top: 30px;
+        margin-left: 20px;
+        box-shadow: 0 12px 12px rgb(0 0 0 /50%);
+}
+
+#secciongaleria{
+    background-image: url("Habilidades_fondo.jpg");
+    background-size: cover;
+}
+
+#secciongaleria img{
+    box-shadow: 0 12px 12px rgb(0 0 0 /50%);
+}
+
+#seccioncontactenos {
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1"
+                         "area2 area2 area3 area3"
+                         "area4 area4 area5 area5";
+                
+    background-image: url("Habilidades_fondo.jpg");
+   
+     background-size: cover;
+}                        
+
+
+#contacteme{
+   grid-area: area1; 
+}
+
+#susdatos
+{
+    grid-area: area2;
+}
+
+#ubicacion{
+    grid-area: area3;
+}
+
+#formulario{
+    grid-area: area4;
+}
+
+#mapa{
+    grid-area: area5;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+footer {
+    background-image: url("teleco5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+}
+
+address span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+

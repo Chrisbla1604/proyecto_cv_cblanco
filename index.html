@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Curriculum Vitae</h1>
+    </header>
+
+    <!-- Nav: Inicio -->
+    <nav>
+      <ul>
+        <li><a href="#secciondatos">Datos Personales</a></li>
+        <li><a href="#seccionredes">Redes Sociales</a></li>
+        <li><a href="#seccionhabilidades">Habilidades</a></li>
+        <li><a href="#secciongaleria">Galería</a></li>
+        <li><a href="#seccioncontactenos">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <!-- Nav: Fin -->
+
+    <section id="secciondatos" class="seccion">
+      <h2>Datos personales</h2>
+
+          <div id="nombre">
+            <span>Nombres:</span>
+            <span>Christian Antonio</span><br>
+          </div>
+         
+          <div id="apellidos">
+            <span><br>Apellidos:</span>
+           <span>Blanco Salazar</span>
+          </div>
+
+          <img src="public/images/cblanco_perfil1.jpg" atl="foto_perfil">
+
+
+      <p>¡Hola! Soy Christian Blanco, Ingeniero en Electrónica y Telecomunicaciones graduado
+          de la ESPOL con 13 años de experiencia en gestión y operatividad de equipos de Transmisión Broadcast TV. 
+          Capacitado para dar solución a las necesidades operativas de las Transmisiones en el dia a dia.
+          En el transcurso de mi vida profesional he continuado capacitandome en el area de Networking(Cisco y Fortinet), 
+          Ciberseguridad (NIST Framework) y Desarrollor Full Stack (Bootcamp ESPOL). Me considero una 
+          persona muy analítica para llevar a cabo de mis tareas</p>
+
+    </section>
+
+    <section id="seccionredes" class="seccion" ">
+     
+      <h2 style="border-bottom: 1px solid #000">Redes sociales</h2>
+        <span style="margin-bottom: 3px"><a href="https://www.linkedin.com/">Linked in</a><br></span>
+        <span align="middle" style="padding-bottom: 10px">
+          <img src="public/images/linked.jpg" width="30%" height="50%">
+        </span> 
+  
+        <span style="margin-bottom: 3px"><a href="https://github.com/">Github</a><br></span>
+        <span align="middle">
+          <img src="public/images/git_hub1.jpeg" width="30%" height="50%">
+        </span>
+
+    </section>
+
+    <section id="seccionhabilidades" class="seccion">
+      <h2>Habilidades Profesionales</h2>
+      <ul>
+        <li>Networking y Soporte IT</li>
+        <li>Broadcasting HD TV</li>
+        <li>Fortinet NSE4</li>
+        <li>Control y Procesamiento Audio y Video</li>
+        <li>HTML & Css</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <table border="1">
+        <caption>Habilidad en idiomas</caption>
+        <tr>
+          <th></th>
+          <th>Básico</th>
+          <th>Intermedio</th>
+          <th>Avanzado</th>
+          <th>Nativo</th>
+        </tr>
+        <tr>
+          <th>Inglés</th>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Español</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+        </tr>
+      </table>
+
+      <h2>Contenidos Transversales</h2>
+      <ol>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>CI/CD</li>
+        <li>Scrum</li>
+      </ol>
+    </section>
+
+    <aside id="secciongaleria" class="seccion" align="end" >
+      <img src="public/images/cblanco_perfil2.jpg" align="left" alt="foto_galeria" width="400" style="margin-bottom:20px">
+           <br>
+      <img src="public/images/cblanco_perfil3.jpg" alt="foto_galeria" width="400">
+           <br>
+    </aside>
+
+    <section id="seccioncontactenos" class="seccion">
+
+      <h2 id="contacteme">Contáctame</h2>
+      <h3 id="susdatos">Sus datos</h3>
+
+      <form id="formulario">
+        <label for="nombre">Nombres:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="nombre">Apellidos:</label><input type="text"
+          name="apellidos"
+          id="apellidos"><br><br>
+
+        <span>Seleccione su rango de edad</span>
+        
+        
+          <div>
+            <input type="radio" id="edad" name="edad" value="menor25">
+            <label for="edad"> menor a 25 años</label>
+          </div>
+          
+          <div>
+            <input type="radio" id="edad2" name="edad" value="entre26y20">
+            <label for="edad"> entre 26 y 30 años</label>
+          </div>
+
+          <div>
+            <input type="radio" id="edad3" name="edad" value="mayor31">
+            <label for="edad"> mayor a 31 años</label><br><br> 
+          </div>
+          
+        
+        <span>Seleccione el tipo de servicio a consultar</span>
+
+        <div>
+          <input type="checkbox" name="frontend" id="frontend">
+          <label for="frontend">Frontend Dev</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" name="backend" id="backend">
+          <label for="backend">Backend Dev</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" name="scrum" id="scrum">
+          <label for="scrum">Desarrollo de software</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="cicd" id="cicd">
+          <label for="cicd">CI/CD</label>
+        </div>
+             
+        <button type="submit">Enviar</button>
+
+      </form>
+
+
+      <h3 id="ubicacion">Ubicación</h3>
+        <div id="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9908737134015!2d-79.88808979999999!3d-2.157167799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6da4532e0071%3A0x68a88f0e252952da!2sTC%20Televisi%C3%B3n!5e0!3m2!1ses!2sec!4v1705875883564!5m2!1ses!2sec" width="350" height="350" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+
+        </div>
+      
+
+    </section>
+    
+    <footer>
+      <address>
+        <span> Email: <a href="mailto:cblanco@fiec.espol.edu.ec">cblanco@espol.edu.ec</a></span>
+        <span>Teléfono: <a href="tel:+593999999">0994128227</a></span>
+        <span>Sector Norte</span>
+        <span>Guayaquil</span>
+        <span>Ecuador</span>
+      </address>
+    </footer>
+
+    
+
+  </body>
+</html>
